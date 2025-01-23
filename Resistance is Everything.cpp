@@ -27,8 +27,7 @@ int main()
         /*I put in a wait command, couldn't think of a better way to do it. Because I didn't
         like it when everything just kind of burst on to the screen */
         this_thread::sleep_for(chrono::milliseconds(500));
-
-        Start:
+        
         do {
             cout << "\nPlease enter in two values for this resistance calculation...\n";
             this_thread::sleep_for(chrono::milliseconds(500));
